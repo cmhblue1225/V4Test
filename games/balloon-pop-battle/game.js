@@ -3,12 +3,12 @@
  * 개발자들이 쉽게 확장할 수 있는 기본 게임 구조
  */
 
-class SoloGameTemplate extends SensorGameSDK {
+class BalloonPopBattle extends SensorGameSDK {
     constructor() {
         super({
-            gameId: 'solo-template',
-            gameName: '솔로 게임 템플릿',
-            gameType: 'solo',
+            gameId: 'balloon-pop-battle',
+            gameName: '🎈 풍선 터뜨리기 배틀',
+            gameType: 'multiplayer',
             version: '1.0.0',
             
             // 센서 설정
