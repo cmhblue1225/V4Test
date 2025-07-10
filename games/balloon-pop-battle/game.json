@@ -1,0 +1,44 @@
+{
+    "id": "balloon-pop-battle",
+    "name": "🎈 풍선 터뜨리기 배틀",
+    "description": "중앙의 풍선을 가장 먼저 터뜨려 점수를 획득하세요! 폰을 흔들어 공격합니다.",
+    "author": "Gemini",
+    "version": "1.0.0",
+    "category": "action",
+    "difficulty": "easy",
+    "gameType": "multiplayer",
+    "icon": "🎈",
+    "sensorTypes": ["orientation", "accelerometer"],
+    "features": ["multiplayer", "real-time", "competitive", "shake-action"],
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "estimatedPlayTime": "3-5분",
+    "controls": {
+        "orientation": "기울여서 캐릭터를 움직이세요.",
+        "accelerometer": "폰을 흔들어서 풍선을 터뜨리세요.",
+        "keyboard": "시뮬레이션: WASD (이동) + 스페이스바 (공격)"
+    },
+    "requirements": {
+        "sensors": ["orientation", "accelerometer"],
+        "permissions": ["deviceorientation", "devicemotion"],
+        "browsers": ["Chrome", "Safari", "Firefox", "Edge"],
+        "platforms": ["iOS", "Android", "Desktop"]
+    },
+    "gameMode": {
+        "type": "competitive",
+        "description": "플레이어들이 경쟁하여 가장 먼저 풍선을 터뜨리는 게임",
+        "objective": "중앙에 나타나는 풍선을 터뜨려 점수 획득",
+        "winCondition": "목표 점수(10점)에 먼저 도달하기",
+        "timeLimit": null
+    },
+    "multiplayerSettings": {
+        "roomCapacity": 8,
+        "spectatorMode": false,
+        "teamMode": false,
+        "realTimeSync": true,
+        "hostMigration": false
+    },
+    "changelog": {
+        "1.0.0": "풍선 터뜨리기 배틀 초기 릴리즈"
+    }
+}
