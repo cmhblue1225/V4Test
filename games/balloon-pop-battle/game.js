@@ -83,7 +83,7 @@ class BalloonPopBattle extends SensorGameSDK {
      * 게임 초기화
      */
     init() {
-        console.log('🎮 솔로 게임 템플릿 초기화');
+        console.log('🎮 풍선 터뜨리기 배틀 초기화');
         
         // 캔버스 설정
         this.setupCanvas();
@@ -1079,7 +1079,7 @@ let game;
 
 // DOM 로드 완료 시 게임 초기화
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🎮 솔로 게임 템플릿 로딩 완료');
+    console.log('🎮 풍선 터뜨리기 배틀 로딩 완료');
     
     try {
         game = new SoloGameTemplate();
